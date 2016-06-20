@@ -16,3 +16,4 @@ Babel 最开始是一个 ES6 到 ES5 的代码转换器，经过发展现在可�
 
 - [Babel 官方网站](http://babeljs.io/)
 - [在线运行 ES6 代码](http://babeljs.io/repl/)
+- [Babel 插件编写手册](https://github.com/thejameskyle/babel-handbook)
