@@ -1,0 +1,129 @@
+html
+  font-size: 16px
+
+body
+  font-size: 1rem
+  line-height: 1.5
+  font-family: -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               helvetica, 'helvetica neue',
+               Ubuntu,
+               'segoe ui', arial,
+               sans-serif
+  background-color: #f0f0f0
+  padding: 2rem 0
+
+body, h1, h2, h3, h4, h4, ul, p, figure
+  margin: 0
+
+a
+  color: black
+
+.container
+  max-width: 40rem
+  margin: 0 auto
+
+.box
+  border: 3px solid black
+  background-color: white
+  .box-heading
+    padding: 1.25rem
+    h3
+      font-size: 1rem
+
+.header
+  .header-inner
+    padding: 1.25rem
+  .site-name
+    font-size: 2rem
+    display: inline-block
+    a
+      text-decoration: none
+    sup
+      font-size: .875rem
+      position: relative
+      top: -5px
+      left: 5px
+      color: #f0db4f
+      text-shadow: 2px 1px 1px #eee
+
+nav.nav
+  border-top: 2px solid black
+  padding: 0 1.25rem
+  background-color: #f0f0f0
+  ul
+    overflow: hidden
+    list-style: none
+    padding-left: 0
+    li
+      float: left
+      height: 2rem
+      line-height: @height
+      &:not(:last-child)
+        margin-right: 1rem
+      a
+        text-decoration: none
+        font-size: .875rem
+        height: 1rem
+        line-height: @height
+        color: #a7a7a7
+        padding: 3px 8px
+        border: 1px solid #333
+        background-color: white
+        &:hover
+          color: #666
+        &.active
+          color: #333
+
+.main
+  margin-top: .625rem
+
+.post-list
+  margin-top: .5rem
+  list-style: none
+  padding-left: 0
+  .post-item
+    &:not(:last-child)
+      margin-bottom: 3px
+    &:before
+      content '→ '
+      display: inline-block
+      margin-right: .5rem
+  .post-summary
+    color: #666
+    margin-left: .5rem
+
+article.article
+  padding: 1.25rem
+  .article-title
+    font-size: 2.25rem
+  .article-content
+    margin-top: 1.25rem
+    ul
+      padding-left: 20px
+    .highlight
+      background-color: #f7f7f7
+
+.alphabet-table
+  margin-top: .625rem
+  overflow: hidden
+  .alphabet-item
+    display: block
+    float: left
+    width: 3.8461538461538463%
+    text-align: center
+    text-decoration: none
+    color: #a7a7a7
+    &:hover
+      color: #666
+    &.active
+      background-color: black
+      color: white
+
+.footer
+  margin-top: 2rem
+  font-size: .875rem
+
+@import "./markdown.styl"
+@import "./highlight.styl"
+@import "./responsive.styl"

@@ -1,0 +1,30 @@
+include mixins
+
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+    block title
+      title=config.title
+    block description
+      meta(name="description" content=config.description)
+    block styles
+      link(href="/css/main.css?v=#{config.version}" rel="stylesheet")
+  body
+    .page.container
+      block header
+        header.header.box
+          .header-inner
+            h2.site-name
+              a(href="/")=config.title
+              sup CODE JARGON
+          +nav(page)
+      block page
+        | hi
+      footer.footer.
+        简明编程术语是由社区驱动的编程知识分享网站，主要提供各类编程专业术语的解释。<br>
+        这个项目的目的并不是取代各种现有文档，而是提供一个更为直接方便的术语表。<br>
+        欢迎到 <a href="https://github.com/egoist/codejargon" target="_blank">GitHub</a> 上贡献内容。
+    block scripts
+      script(src="/js/app.js?v=#{config.version}")

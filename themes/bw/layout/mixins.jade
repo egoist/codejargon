@@ -1,0 +1,15 @@
+mixin article(post)
+  li.post-item
+    a.post-title(href=url_for(post.path)) #{post.title}
+    | :
+    span.post-summary #{post.summary}
+
+mixin nav(page)
+  nav.nav
+    ul
+      li
+        a(href="/" class=page.path==='index.html'?'active':'') 首页
+      li
+        a(href="/about.html" class=page.path==='about.html'?'active':'') 关于
+      li
+        a(href="/alphabet/a/" class=page.alphabet?'active':'') 字母表

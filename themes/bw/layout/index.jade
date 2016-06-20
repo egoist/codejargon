@@ -1,0 +1,10 @@
+extends base
+
+block page
+  .main.box
+    .box-heading
+      h3 最近新增
+      ul.post-list
+        - page.posts.each(function(post) {
+          +article(post)
+        - })

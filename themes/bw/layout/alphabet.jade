@@ -1,0 +1,17 @@
+extends base
+
+block title
+  title #{page.category} - #{config.title}
+
+block page
+  .alphabet-table.box
+    each i in page.alphabetList
+      a.alphabet-item(href="/alphabet/#{i}" class=page.category===i?'active':'')=i
+  .main.box
+    .box-heading
+      h3 字母表
+      if page.posts.length > 0
+        ul.post-list
+          - page.posts.each(function(post) {
+            +article(post)
+          - })

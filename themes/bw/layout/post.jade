@@ -1,0 +1,17 @@
+extends base
+
+block title
+  title #{page.title } - #{config.title}
+  
+if page.summary
+  block description
+    meta(name="description" content=page.summary)
+
+block page
+  .main.box
+    article.article
+      h1.article-title=page.title
+      .article-content.markdown-body
+        if page.summary
+          p=page.summary
+        | !{page.content}
