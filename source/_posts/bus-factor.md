@@ -14,4 +14,4 @@ Bus factor 是从「hit by a bus」衍生来的，代指由于一切不确定的
 
 ## 外部链接
 
-- [Bus factor（维基百科）](https://en.wikipedia.org/wiki/Bus_factor)
+- [Bus factor (维基百科)](https://en.wikipedia.org/wiki/Bus_factor)

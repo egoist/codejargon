@@ -24,5 +24,5 @@ Google 工具条上的 PageRank 指针从 0 到 10。它似乎是一个对数标
 
 ## 外部链接
 
-- [PageRank(维基百科)](https://zh.wikipedia.org/wiki/PageRank)
+- [PageRank (维基百科)](https://zh.wikipedia.org/wiki/PageRank)
 - [Google Toolbar PageRank Finally & Officially Dead?](http://searchengineland.com/google-toolbar-pagerank-finally-officially-dead-205277)
