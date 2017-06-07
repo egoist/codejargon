@@ -18,6 +18,7 @@ summary: 更现代化的浏览器网络请求接口，相比 XMLHttpRequest 增�
 const body = JSON.stringify({
   title: 'New Post'
 })
+
 fetch('/posts', {type: 'POST', body})
   .then(data => data.json())
   .then(data => console.log(data))

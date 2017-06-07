@@ -16,10 +16,10 @@ DOM 不是一种编程语言而是一个标准，它有很多具体实现，比�
 
 实例代码，使用 DOM 操作元素:
 
-{% codeblock lang:js %}
-var p = document.querySelector('p')
+```js
+const p = document.querySelector('p')
 p.innerHTML = 'hack by codejargon'
-{% endcodeblock %}
+```
 
 ## 外部链接
 
