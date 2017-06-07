@@ -3,7 +3,7 @@ title: Bus factor
 date: 2017-06-07 20:48:01
 tags:
 categories: b
-summary: 用于衡量团队中信息不对等所造成的风险
+summary: 用于衡量团队中信息不对等所造成的风险。
 ---
 
 如果你的团队中失去至少 Y 人就可能导致项目由于缺乏有能力的人而失败，那么这里的 Y 就是所谓的 Bus factor，抑或译为「公交因子」。
