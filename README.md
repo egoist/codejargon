@@ -10,10 +10,10 @@
 
 ```bash
 # 预览网站
-$ hexo s --watch
+$ npm run dev
 
 # 添加词条
-$ hexo new post {item_name}
+$ ./node_modules/.bin/hexo new post {item_name}
 ```
 
 ## 内容共享
