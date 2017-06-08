@@ -23,20 +23,19 @@ CommonJS 规范是为了解决 JavaScript 的作用域问题而定义的模块�
 
 一个直观的例子：
 
-{% codeblock lang:js %}
+```js
 // moduleA.js
 module.exports = function( value ){
   return value * 2;
 }
-{% endcodeblock %}
+```
 
-{% codeblock lang:js %}
-// moduleB.js
+{% codeblock lang:js %}```js// moduleB.js
 var multiplyBy2 = require('./moduleA');
 var result = multiplyBy2(4);
-{% endcodeblock %}
+```
 
-CommonJS 是同步加载模块，但其实也有浏览器端的实现，其原理是现将所有模块都定义好并通过 id 索引，这样就可以方便的在浏览器环境中解析了，可以参考 [require1k](https://github.com/Stuk/require1k) 和 [tiny-browser-require](https://github.com/ruanyf/tiny-browser-require) 的源码来理解其解析 `resolve` 的过程。
+CommonJS 是同步地加载模块，但其实也有浏览器端的实现，其原理是现将所有模块都定义好并通过 id 索引，这样就可以方便的在浏览器环境中解析了，可以参考 [require1k](https://github.com/Stuk/require1k) 和 [tiny-browser-require](https://github.com/ruanyf/tiny-browser-require) 的源码来理解其解析 `resolve` 的过程。
 
 ## 外部链接
 
