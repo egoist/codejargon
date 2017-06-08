@@ -30,7 +30,8 @@ module.exports = function( value ){
 }
 ```
 
-{% codeblock lang:js %}```js// moduleB.js
+```js
+// moduleB.js
 var multiplyBy2 = require('./moduleA');
 var result = multiplyBy2(4);
 ```
