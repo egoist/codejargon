@@ -14,11 +14,11 @@ AJAX 是一项用过异步数据传输来实现服务器与客户端之间交互
 
 实例，使用 jQuery 提供的 AJAX 方法更新添加评论后的新评论列表:
 
-{% codeblock lang:js %}
+```js
 $.post('/add-comment', {comment}, function (err, addedComment) {
   $('.comment-list').append(`<div class="comment">${addedComment.body}</div>`)
 })
-{% endcodeblock %}
+```
 
 ## 外部链接
 

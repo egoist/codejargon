@@ -14,7 +14,7 @@ summary: 更现代化的浏览器网络请求接口，相比 XMLHttpRequest 增�
 
 实例代码:
 
-{% codeblock lang:js %}
+```js
 const body = JSON.stringify({
   title: 'New Post'
 })
@@ -22,7 +22,7 @@ const body = JSON.stringify({
 fetch('/posts', {type: 'POST', body})
   .then(data => data.json())
   .then(data => console.log(data))
-{% endcodeblock %}
+```
 
 ## 浏览器兼容性
 

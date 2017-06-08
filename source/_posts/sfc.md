@@ -11,7 +11,7 @@ summary: Vue 单文件组件。
 
 示例 `Counter.vue` 文件:
 
-```html
+```vue
 <template>
   <div class="counter">
     <button class="count" @click="count++">

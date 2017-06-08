@@ -11,7 +11,7 @@ categories:
 summary: 一个开发者对 NPM 公司不满，unpublish 了自己的所有模块，其中包括被广泛使用的 left-pad。
 ---
 
-Azer 在《I’ve Just Liberated My Modules》文章中写道：
+Azer 在《[I’ve Just Liberated My Modules](https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c)》一文中写道：
 
 > 几个星期前有位专利律师给我发了一封电子邮件，要求我取消发布 NPM 上的 “KIK” 模块。我的回答是“不”，于是他回复我说：“I don’t wanna be dick about it（这句就不翻译了，你只需要知道 dick 是什么意思就够了），但 “KIK” 是我们的注册品牌，并且我们的律师遍布世界各地。”<br>
 > 当我开始编写 kik 时，并不知道有同名的公司。而我也不希望因为这个公司而被迫改变项目的名字。在遭到了我的拒绝后，他们联系了 NPM 的技术支持，为了强调他们的律师权力，每一个电子邮件都抄送给了我。在未经我允许的情况下，@izs 更改了此模块的所有权。<br>

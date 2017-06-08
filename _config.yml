@@ -9,7 +9,7 @@ description: 简明编程术语是由社区驱动的编程知识分享网站
 author: EGOIST
 language: zh-CN
 timezone:
-version: 0.2.1
+version: 0.3.0
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -39,7 +39,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: false
   auto_detect: false
   tab_replace:
@@ -72,12 +72,6 @@ deploy:
   type: git
   repo: git@git.coding.net:egoist/codejargon.git
   branch: coding-pages
-
-markdown:
-  render:
-    breaks: true
-    html: true
-    linkify: true
 
 stylus:
   compress: true
