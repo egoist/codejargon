@@ -7,7 +7,7 @@ categories:
 - a
 summary: 代指一个函数的参数数量。
 ---
-你可能会在 JavaScript 领域遇到这个概念，已废弃的 API `Function.arity` 是其具体实现，现已被 `Function.length` 替代。
+你可能会在计算机领域遇到这个概念，已废弃的 API `Function.arity` 是其具体实现，现已被 `Function.length` 替代。
 
 实例:
 
